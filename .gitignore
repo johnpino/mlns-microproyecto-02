@@ -1,0 +1,34 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.idea/
+.vscode/
+
+# Exports / artifacts
+*.html
+*.log
+
+# Local scratch files created during PDF extraction/OCR attempts
+pdf_text.txt
+pdf_ocr.txt
+pdf_sips/
+pdf_thumbs/
