@@ -24,7 +24,6 @@ env/
 .vscode/
 
 # Exports / artifacts
-*.html
 *.log
 
 # Local scratch files created during PDF extraction/OCR attempts
