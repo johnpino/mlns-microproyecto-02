@@ -2,6 +2,7 @@ from pathlib import Path
 
 import joblib
 import streamlit as st
+from preprocessing import preprocessor
 
 MODEL_PATH = Path(__file__).resolve().parent / "pipe.joblib"
 pipe = joblib.load(MODEL_PATH)
